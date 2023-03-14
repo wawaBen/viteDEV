@@ -15,3 +15,7 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TRADALIM_DEV }}'
           projectId: tradalim-dev
+        permissions:
+          id-token: write # This is required for requesting the JWT
+          contents: read  # This is required for actions/checkout
+
