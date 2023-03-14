@@ -3,7 +3,7 @@
     "default": "tradalim-dev"
   },
   "targets": {
-    "rid1-test": {
+    "tradalim-dev": {
       "hosting": {
         "dev": [
           "tradalim-dev"
