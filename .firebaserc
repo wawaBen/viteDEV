@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "tradalim-dev"
+  },
+  "targets": {
+    "tradalim-dev": {
+      "hosting": {
+        "dev": [
+          "tradalim-dev"
+        ],
+        "prod": [
+          "trada-rct"
+        ]
+      }
+    }
   }
 }
